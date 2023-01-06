@@ -24,7 +24,7 @@
   background-repeat: no-repeat;
   background-position: bottom right, left;
   /* padding: 50px 38px 0px 23px; */
-  /* padding-top: 50px; */
+  padding-top: 50px;
 }
 /* Navigation Styles */
 nav {
@@ -175,4 +175,37 @@ main {
 .resume-button {
   margin-top: 50px;
   text-align: center;
+}
+
+/* Contact Section Styles */
+.contact {
+  margin-top: 130px;
+  background: #fff8f3;
+  display: flex;
+  /* justify-content: center; */
+  gap: 100px;
+  padding: 100px;
+}
+.contact .section-title {
+  text-align: left;
+}
+.contact-description {
+  color: #474747;
+  margin-bottom: 30px;
+}
+.contact a {
+  text-decoration: none;
+  margin-right: 24px;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  margin-bottom: 24px;
+  border: 0;
+  padding: 18px 30px;
+  color: #757575;
+}
+.contact input {
+  height: 64px;
 }
